@@ -14,7 +14,7 @@ const Academy = () => {
                 md:max-lg:mx-28 
               
                 xs:max-md:mx-7 
-                gap-8'>
+                gap-8' id='instructor'>
 
             <div className='basis-1/2 h-max'>
                 <h1 className='text-5xl xs:max-md:text-3xl xs:max-md:w-full mx-auto text-left font-bold'>

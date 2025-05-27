@@ -7,17 +7,20 @@ const Main = () => {
       <main className="container mx-auto px-4 py-12 md:py-20 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight mb-6">
-            Discover the Best Online Communities for Your Career
+            Producing the next tech <br /> industry experts
           </h1>
           <p className="text-lg text-gray-600 mb-4">
-            Join the ultimate directory of online communities for tech professionals! Whether you&apos;re an aspiring coder,
-            a seasoned developer, designer, system engineer or a tech enthusiast.
+             The Loreon Foundational DevOps Programme gives you a clear step-by-step guide to becoming
+          internship-ready in just 6 weeks. No confusion, no wasted effort, just real skills and hands-on
+          experience. Classes are delivered using a live video conferencing platform and all classes
+          are recorded, and videos are shared after class. Students will get a Capstone project,
+          Linked/resume review, and interview bootcamp in the final month of training.
           </p>
           <p className="text-lg text-gray-600 mb-8">Join us today and explore a world of possibilities!</p>
           <div className="flex flex-wrap gap-4">
             
             <Link
-              href="https://form.typeform.com/to/ef7oBKal"
+              href="https://bit.ly/LOREON"
               target='_blank'
               className="px-6 py-3 bg-blue-500 rounded-full text-white hover:bg-blue-600 transition-colors"
             >

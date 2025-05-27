@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const CTA = () => {
   return (
-    <section className='bg-loreonblue py-20 my-28'>
+    <section className='bg-loreonblue py-20 mt-28'>
 
 
       <div className='mx-auto w-max text-center space-y-3'>
@@ -15,7 +15,7 @@ const CTA = () => {
         <p className='text-white xs:max-md:text-sm'>Join us and gain in-demand skills</p>
 
       <Link 
-        href={"/https://form.typeform.com/to/ef7oBKal"} 
+        href={"/"} 
         target='_blank'
         className='mt-4 '
         >

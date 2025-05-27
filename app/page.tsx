@@ -23,7 +23,7 @@ const page = () => {
       {/* <Graduates />  */}
       <Guarantee />
       <CTA />
-      <FAQ variant='light' />
+      {/* <FAQ variant='light' /> */}
 
     </div>
   )

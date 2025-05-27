@@ -10,7 +10,7 @@ const Testimonials = () => {
     xs:max-md:px-7
     bg-[url("/assets/images/training/testimonialbg.png")] 
     bg-no-repeat
-    bg-contain '>
+    bg-contain ' id='testimonials'>
 
       <div>
         <p>Testimonials</p>

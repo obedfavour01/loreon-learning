@@ -15,7 +15,7 @@ const Careers = () => {
     setActiveChild(tab)
   }
   return (
-    <div className='mt-36 lg:h-screen'>
+    <div className='mt-36 lg:h-screen' id='why'>
 
       <Tabs onTabChange={handleTabChange}/>
 
