@@ -96,8 +96,8 @@ const Academy = () => {
 
             </div>
             <div
-                className='basis-1/3
-                        shadow-training-shadow
+                className='basis-1/3 
+                        
                          lg:w-[766px] 
                          lg:h-[429px]  
                          xs:max-md:w-[296px] 
@@ -108,11 +108,11 @@ const Academy = () => {
                 {/* <AcademyVideo /> */}
 
                 <Image
-                    src={"/assets/images/instructor/ileri_new.jpg"}
+                    src={"/assets/images/instructor/ileriii.jpg"}
                     alt='ileri'
                     width={800}
                     height={800}
-                    className='w-full h-full object-contain'
+                    className='w-full h-full object-cover rounded-full'
                 />
             </div>
 
