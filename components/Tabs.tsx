@@ -10,8 +10,8 @@
         onTabChange(tab)
     }
     return (
-      <div>
-        <div className="flex space-x-16 xs:max-md:space-x-4 bg-[#F5EAE6] w-max mx-auto rounded-[200px] px-[5px] py-[5px]">
+      <div className='xs:max-md:overflow-hidden'>
+        <div className="xs:max-md:overflow-hidden flex space-x-16 xs:max-md:space-x-4 bg-[#F5EAE6] w-max mx-auto rounded-[200px] px-[5px] py-[5px]">
           {/* <button
             className={`py-2.5 px-6 text-lg xs:max-md:text-lg font-cool
               ${activeTab === 'all' ?

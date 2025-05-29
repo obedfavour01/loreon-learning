@@ -96,11 +96,7 @@ const Academy = () => {
 
             </div>
             <div
-                className='basis-1/3 
-                        
-                         lg:w-[766px] 
-                         lg:h-[429px]  
-                         xs:max-md:w-[296px] 
+                className='basis-1/3
                          overflow-hidden 
                          rounded-2xl 
                          my-8  
@@ -112,7 +108,7 @@ const Academy = () => {
                     alt='ileri'
                     width={800}
                     height={800}
-                    className='w-full h-full object-cover rounded-full'
+                    className='w-full h-full object-cover rounded-full  lg:w-[766px] lg:h-[429px] aspect-square '
                 />
             </div>
 

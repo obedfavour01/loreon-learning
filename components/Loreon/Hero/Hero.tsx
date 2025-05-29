@@ -4,7 +4,7 @@ import Main from './Main'
 
 const Hero = () => {
   return (
-    <div>
+    <div className='mx-7 lg:mx-20'>
         <Nav/>
         <Main/>
     </div>

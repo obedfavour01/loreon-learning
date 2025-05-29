@@ -15,14 +15,14 @@ const Careers = () => {
     setActiveChild(tab)
   }
   return (
-    <div className='mt-36 lg:h-screen' id='why'>
+    <div className='mt-36 ' id='why'>
 
       <Tabs onTabChange={handleTabChange}/>
 
       <div className='mt-24 xs:max-md:my-8'>
         
 
-        <div className='flex flex-col md:flex-row gap-5 justify-center  xs:max-md:overflow-x-scroll'>
+        <div className='flex flex-col lg:flex-row gap-5 justify-center '>
 
             {activeChild === 'all' && 
                 <Metrics/>

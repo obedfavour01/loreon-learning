@@ -19,7 +19,7 @@ export function MobileNav() {
       </SheetTrigger>
       <SheetContent side="left" className="w-[300px] sm:w-[350px]">
         <SheetHeader>
-          <SheetTitle className="text-left text-blue-500 font-medium text-xl">Findyourpeople.tech</SheetTitle>
+          <SheetTitle className="text-left text-blue-500 font-medium text-xl">Loreon Learning</SheetTitle>
         </SheetHeader>
         <div className="flex flex-col gap-4 mt-8">
           <nav className="flex flex-col gap-4">
@@ -48,19 +48,14 @@ export function MobileNav() {
 
           <div className="flex flex-col gap-3 mt-4 pt-4 border-t">
             <Link
-              href="/signin"
+              href="https://bit.ly/LOREON"
+              target="_blank"
               className="w-full px-5 py-2 border border-blue-500 rounded-full text-blue-500 hover:bg-blue-50 transition-colors text-center"
               onClick={() => setOpen(false)}
             >
-              Sign in
+             Enrol Now
             </Link>
-            <Link
-              href="/signup"
-              className="w-full px-5 py-2 bg-blue-500 rounded-full text-white hover:bg-blue-600 transition-colors text-center"
-              onClick={() => setOpen(false)}
-            >
-              Sign up
-            </Link>
+           
           </div>
         </div>
       </SheetContent>

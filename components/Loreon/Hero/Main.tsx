@@ -37,7 +37,7 @@ const Main = () => {
           <div className="absolute top-40 left-20 w-5 h-5 rounded-full bg-blue-100"></div>
 
           {/* Image circles */}
-          <div className="relative h-[500px]">
+          <div className="relative h-[500px] hidden md:block">
             <div className="absolute top-0 left-1/4 w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <Image
                 src="/assets/images/learning/topleft.jpg"
