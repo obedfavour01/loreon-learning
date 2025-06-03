@@ -5,6 +5,7 @@ import { MobileNav } from '../MobileNav'
 
 import gsap from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import Logo from '@/components/Logo';
 
 
 if (typeof window !== "undefined") {
@@ -34,7 +35,7 @@ const Nav = () => {
   return (
     <header className="container mx-auto px-4 py-6 flex items-center justify-between">
         <Link href="/" className="text-blue-500 font-medium text-xl">
-          Loreon Learning
+          <Logo/>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
