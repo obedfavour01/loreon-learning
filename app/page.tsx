@@ -1,5 +1,6 @@
 import FAQ from '@/components/Landing/FAQ/FAQ'
 import Hero from '@/components/Loreon/Hero/Hero'
+import Roadmap from '@/components/Roadmap/Roadmap'
 import Academy from '@/components/Training/Academy'
 import CTA from '@/components/Training/CTA'
 import Careers from '@/components/Training/Careers'
@@ -16,9 +17,9 @@ const page = () => {
       {/* <TrainingHero /> */}
 
       <Hero/>
+      <Roadmap/>
       <Careers />
       <Academy />
-      <Purpose />
       <Testimonials />
       {/* <Graduates />  */}
       <Guarantee />

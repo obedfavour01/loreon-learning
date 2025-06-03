@@ -6,8 +6,16 @@ import { Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 
+import { smoothScroll } from "./Hero/Nav"
+
 export function MobileNav() {
   const [open, setOpen] = useState(false)
+
+
+   const handleMobileLinkClick = (tag: string) => {
+    setOpen(false);
+    smoothScroll(tag);
+  }
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -24,25 +32,37 @@ export function MobileNav() {
         <div className="flex flex-col gap-4 mt-8">
           <nav className="flex flex-col gap-4">
             <Link
-              href="/about"
+              href="#why" passHref legacyBehavior
               className="text-gray-600 hover:text-gray-900 py-2 px-4 rounded-md hover:bg-gray-100 transition-colors"
               onClick={() => setOpen(false)}
             >
-              About
+              <a onClick={(e) => {
+                      e.preventDefault(); // Prevent default Next.js behavior
+                      handleMobileLinkClick('why');
+                    }}>  Why Sign Up </a>
+                  
             </Link>
             <Link
-              href="/contact"
+              href="#instructor" passHref legacyBehavior
               className="text-gray-600 hover:text-gray-900 py-2 px-4 rounded-md hover:bg-gray-100 transition-colors"
               onClick={() => setOpen(false)}
             >
-              Contact
+              <a onClick={(e) => {
+                      e.preventDefault(); // Prevent default Next.js behavior
+                      handleMobileLinkClick('instructor');
+                    }}>  Instructor </a>
+                  
             </Link>
             <Link
-              href="/terms"
+              href="#testimonials" passHref legacyBehavior
               className="text-gray-600 hover:text-gray-900 py-2 px-4 rounded-md hover:bg-gray-100 transition-colors"
               onClick={() => setOpen(false)}
             >
-              Terms of use
+              <a onClick={(e) => {
+                      e.preventDefault(); // Prevent default Next.js behavior
+                      handleMobileLinkClick('testimonials');
+                    }}>  Testimonials </a>
+                  
             </Link>
           </nav>
 
