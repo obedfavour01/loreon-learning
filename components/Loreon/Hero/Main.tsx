@@ -22,7 +22,9 @@ const Main = () => {
             <Link
               href="https://bit.ly/LOREON"
               target='_blank'
-              className="px-6 py-3 bg-blue-500 rounded-full text-white hover:bg-blue-600 transition-colors"
+               className={`py-2.5 px-6 text-lg xs:max-md:text-lg font-cool 
+                bg-[#F15A24] rounded-[100px] text-black
+               `}
             >
               Enrol Now
             </Link>

@@ -55,7 +55,7 @@ export default Guarantee
 
 
 const GuaranteeBox = ({ mainText, subText, imgPath }: GuaranteeData) => (
-  <div className='w-[307px] xs:max-md:w-full h-[222px] p-10 
+  <div className='w-[307px] xs:max-md:w-full h-[222px] p-10 border-2 border-black
     rounded-md 
     space-y-3
     shadow-sm 

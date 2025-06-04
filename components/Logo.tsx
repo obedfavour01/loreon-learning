@@ -5,15 +5,20 @@ import React from 'react'
 const Logo = () => {
   return (
     <Link href={'/'}>
-      <div title='Go to Home'>
+      <div className='flex items-center'>
+
         <Image
-          src={"/assets/images/loreonlogo.png"}
-          className="xs:max-lg:w-[100px] w-[150px] h-[36px] object-contain"
+          src={"/assets/images/loreon_logo.png"}
+          className="xs:max-lg:w-[70px] w-[70px]"
           alt='logo'
-          width={1000}
-          height={1000}
+          width={100}
+          height={100}
+          
         />
+        
+        <h1>Loreon Learning</h1>
       </div>
+      
     </Link>
   )
 }

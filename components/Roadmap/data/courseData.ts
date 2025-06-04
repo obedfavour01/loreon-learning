@@ -18,7 +18,7 @@ export const courses: Course[] = [
       </ul>
       <p>By the end of this week, you'll understand the core principles of DevOps .</p>
     `,
-    image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg'
+    image: '/assets/images/roadmap/linux.png'
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const courses: Course[] = [
       </ul>
       <p>You'll leave this week as a confident Git user ready for team collaboration.</p>
     `,
-    image: 'https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg'
+    image: '/assets/images/roadmap/git_github.png'
   },
   {
     id: 3,
@@ -56,7 +56,7 @@ export const courses: Course[] = [
       </ul>
       <p>By week's end, you'll be able to build and maintain professional CI/CD pipelines.</p>
     `,
-    image: 'https://images.pexels.com/photos/8439094/pexels-photo-8439094.jpeg'
+    image: '/assets/images/roadmap/cicd.png'
   },
   {
     id: 4,
@@ -75,7 +75,7 @@ export const courses: Course[] = [
       </ul>
       <p>You'll finish this week able to build and manage containerized applications.</p>
     `,
-    image: 'https://images.pexels.com/photos/1467276/pexels-photo-1467276.jpeg'
+    image: '/assets/images/roadmap/containerization.png'
   },
   {
     id: 5,
@@ -94,7 +94,7 @@ export const courses: Course[] = [
       </ul>
       <p>By the end of this week, you'll be able to manage cloud infrastructure through code.</p>
     `,
-    image: 'https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg'
+    image: '/assets/images/roadmap/IaC.png'
   },
   {
     id: 6,
@@ -113,6 +113,6 @@ export const courses: Course[] = [
       </ul>
       <p>You'll finish the course ready to implement and manage production monitoring systems.</p>
     `,
-    image: 'https://images.pexels.com/photos/7988079/pexels-photo-7988079.jpeg'
+    image: '/assets/images/roadmap/monitoring.png'
   }
 ];

@@ -34,8 +34,8 @@ export const smoothScroll = (id: string) => {
 const Nav = () => {
   return (
     <header className="container mx-auto px-4 py-6 flex items-center justify-between">
-        <Link href="/" className="text-blue-500 font-medium text-xl">
-          <Logo/>
+        <Link href="/" className="text-blue-500 font-medium text-xl flex ">
+          <Logo/> 
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -85,13 +85,15 @@ const Nav = () => {
           >
             Sign in
           </Link> */}
-          <Link
-            href="https://bit.ly/LOREON"
-            target= {"_blank"}
-            className="px-5 py-2 bg-blue-500 rounded-full text-white hover:bg-blue-600 transition-colors"
-          >
-            Enrol Now
-          </Link>
+         <Link
+              href="https://bit.ly/LOREON"
+              target='_blank'
+               className={`py-2.5 px-6 text-lg xs:max-md:text-lg font-cool 
+                bg-[#F15A24] rounded-[100px] text-black
+               `}
+            >
+              Enrol Now
+            </Link>
         </div>
 
         <MobileNav />

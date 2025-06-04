@@ -23,10 +23,10 @@ const ReviewCarousel = () => {
                     Array.from({ length: 5 }).map((_, index) => (
                         <CarouselItem key={index} className="pl-1 shadow-lg md:basis-1/2  lg:basis-1/2">
 
-                            <Card className='h-max  mr-6 '>
-                                <CardContent className="px-9 py-10">
+                            <Card className='h-[280px]  mr-6 border-2 border-black flex items-center'>
+                                <CardContent className="px-9  ">
                                     <CarouselDetails />
-                                </CardContent>
+                                </CardContent>  
                             </Card>
 
                         </CarouselItem>
@@ -43,7 +43,7 @@ const ReviewCarousel = () => {
 }
 
 const CarouselDetails = () => (
-    <div>
+    <div className='flex flex-col justify-center h-4/5 '>
         <p className='text-[#1211278F] '>Amet minim mollit non deserunt
             ullamco est sit aliqua dolor do amet
             sint velit officia consequat duis enim
