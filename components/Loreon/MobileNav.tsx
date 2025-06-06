@@ -67,14 +67,24 @@ export function MobileNav() {
           </nav>
 
           <div className="flex flex-col gap-3 mt-4 pt-4 border-t">
-            <Link
-              href="https://bit.ly/LOREON"
-              target="_blank"
-              className="w-full px-5 py-2 border border-blue-500 rounded-full text-blue-500 hover:bg-blue-50 transition-colors text-center"
-              onClick={() => setOpen(false)}
-            >
-             Enrol Now
-            </Link>
+            
+             <div className="xs:max-md:overflow-hidden xs:max-md:space-x-4 bg-[#F5EAE6] w-max  rounded-[200px] px-[5px] py-3">
+            
+            
+                        <Link
+                          href="https://bit.ly/LOREON"
+                          target='_blank'
+                          className={`py-2.5 px-6 text-lg xs:max-md:text-lg font-cool 
+                            bg-[#F15A24] rounded-[100px] text-black
+                            `}
+
+                            onClick={() => setOpen(false)}
+                            >
+                          Enrol Now
+                        </Link>
+                          </div>
+
+
            
           </div>
         </div>
