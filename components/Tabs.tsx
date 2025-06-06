@@ -21,7 +21,7 @@
           >
             Metrics
           </button> */}
-          <button
+          {/* <button
             className={`py-2.5 px-6 text-lg xs:max-md:text-lg font-cool
               ${activeTab === 'data' ? 
                 'bg-[#F15A24] rounded-[100px] text-black0' : 
@@ -29,7 +29,7 @@
             onClick={() => handleTabChange('data')}
           >
             Why Sign Up?
-          </button>
+          </button> */}
           {/* <button
             className={`py-2.5 px-6 text-lg xs:max-md:text-lg font-cool 
               ${activeTab === 'devops' ? 'bg-[#F15A24] rounded-[100px] text-black' : 'text-black'}`}

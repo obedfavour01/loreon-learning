@@ -42,7 +42,7 @@ const Main = () => {
           <div className="relative h-[500px] hidden md:block">
             <div className="absolute top-0 left-1/4 w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <Image
-                src="/assets/images/learning/topleft.jpg"
+                src="/assets/images/learning/hero1.jpg"
                 alt="Tech professionals working together"
                 fill
                 className="object-cover"
@@ -50,7 +50,7 @@ const Main = () => {
             </div>
             <div className="absolute top-20 right-10 w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <Image
-                src="/assets/images/learning/center.jpg"
+                src="/assets/images/learning/hero2.jpg"
                 alt="Tech community meetup"
                 fill
                 className="object-cover"
@@ -58,7 +58,7 @@ const Main = () => {
             </div>
             <div className="absolute top-1/2 left-0 w-36 h-36 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <Image
-                src="/assets/images/learning/cent.jpg"
+                src="/assets/images/learning/hero3.jpg"
                 alt="Tech conference"
                 fill
                 className="object-cover"
@@ -66,7 +66,7 @@ const Main = () => {
             </div>
             <div className="absolute -bottom-[30px] right-1/4 w-44 h-44 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <Image
-                src="/assets/images/learning/tinytop.jpg"
+                src="/assets/images/learning/hero4.jpg"
                 alt="Workspace setup"
                 fill
                 className="object-cover"
@@ -74,7 +74,7 @@ const Main = () => {
             </div>
             <div className="absolute top-1/3 right-1/3 w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <Image
-                src="/assets/images/learning/bottomight.jpg"
+                src="/assets/images/learning/hero5.jpg"
                 alt="Team meeting"
                 fill
                 className="object-cover"
