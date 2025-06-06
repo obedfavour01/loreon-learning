@@ -85,15 +85,19 @@ const Nav = () => {
           >
             Sign in
           </Link> */}
-         <Link
+          <div className="xs:max-md:overflow-hidden xs:max-md:space-x-4 bg-[#F5EAE6] w-max  rounded-[200px] px-[5px] py-3">
+
+
+            <Link
               href="https://bit.ly/LOREON"
               target='_blank'
-               className={`py-2.5 px-6 text-lg xs:max-md:text-lg font-cool 
+              className={`py-2.5 px-6 text-lg xs:max-md:text-lg font-cool 
                 bg-[#F15A24] rounded-[100px] text-black
-               `}
-            >
+                `}
+                >
               Enrol Now
             </Link>
+              </div>
         </div>
 
         <MobileNav />
