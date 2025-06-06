@@ -67,7 +67,7 @@ const ReviewCarousel = () => {
                 </p> */}
                                                 </div>
 
-                                                <Rating />
+                                                {/* <Rating /> */}
                                             </div>
 
                                         </div>
