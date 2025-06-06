@@ -44,8 +44,8 @@ const ReviewCarousel = () => {
 
                                 <Card className='h-[280px]  mr-6 border-2 border-black flex items-center'>
                                     <CardContent className="px-9  py-3">
-                                        <div className='flex flex-col justify-center h-4/5 '>
-                                            <p className='text-[#1211278F] '>{val.testimony}</p>
+                                        <div className='flex flex-col justify-center h-4/5 overflow-hidden '>
+                                            <p className='text-[#1211278F] line-clamp-6 sm:line-clamp-none'>{val.testimony}</p>
 
 
                                             <div className='flex gap-2 items-center mt-10'>
