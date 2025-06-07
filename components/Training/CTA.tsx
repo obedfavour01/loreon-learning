@@ -14,18 +14,19 @@ const CTA = () => {
 
         <p className='text-white xs:max-md:text-sm'>Join us and gain in-demand skills</p>
 
-      <Link 
-        href={"/"} 
-        target='_blank'
-        className='mt-4 '
-        >
-        <Button
-          className='bg-white 
-        text-[#020000]
-        px-10 py-5 rounded-xl'>
-          <p className='text-lg'>Enrol Now</p>
-        </Button>
-      </Link>
+      <div className="xs:max-md:overflow-hidden xs:max-md:space-x-4 bg-[#a9a8a7] w-max mx-auto rounded-[200px] px-[5px] py-3">
+
+
+            <Link
+              href="https://bit.ly/LOREON"
+              target='_blank'
+              className={`py-2.5 px-6 text-lg xs:max-md:text-lg font-cool bg-white
+                hover:bg-[#F15A24] rounded-[100px] text-black
+                `}
+                >
+              Enrol Now
+            </Link>
+              </div>
       </div>
     </section>
   )
