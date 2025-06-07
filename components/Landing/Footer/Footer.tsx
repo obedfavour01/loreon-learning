@@ -46,7 +46,7 @@ const Footer = () => {
             <div className='flex  xs:max-lg:flex-col justify-between mt-24  text-sm text-[#C0CBF0]'>
                 <Logo/>
 
-                <p>All rights reserved © 2024 Loreon Technologies</p>
+                <p>All rights reserved © 2025 Loreon Technologies</p>
             </div>
         </footer>
     )

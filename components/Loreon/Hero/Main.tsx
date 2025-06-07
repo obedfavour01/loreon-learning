@@ -14,7 +14,7 @@ const Main = () => {
           internship-ready in just 6 weeks. No confusion, no wasted effort, just real skills and hands-on
           experience. Classes are delivered using a live video conferencing platform and all classes
           are recorded, and videos are shared after class. Students will get a Capstone project,
-          Linked/resume review, and interview bootcamp in the final month of training.
+          LinkedIn/resume review, and interview session in the final week of training.
           </p>
           <p className="text-lg text-gray-600 mb-8">Join us today and explore a world of possibilities!</p>
           <div className="flex flex-wrap gap-4">

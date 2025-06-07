@@ -7,12 +7,12 @@ export const courses: Course[] = [
     title: 'DevOps & Linux Fundamentals',
     description: 'Master the foundational concepts of DevOps and essential Linux skills.',
     content: `
-      <h3>Week 1: Introduction to DevOps & Linux Fundamentals</h3>
+      <h3>Introduction to DevOps & Linux Fundamentals</h3>
       <p>This foundational week covers:</p>
       <ul>
         <li>The 7 pillars of DevOps</li>
         <li>DevOps lifecycle and pipeline</li>
-        <li>System architecture design</li>
+
         <li>Linux fundamentals for DevOps practitioners</li>
         <li>Career opportunities in DevOps</li>
       </ul>
@@ -23,46 +23,46 @@ export const courses: Course[] = [
   {
     id: 2,
     week: 2,
-    title: 'Git & GitHub Mastery',
+    title: 'Git & GitHub ',
     description: 'Learn version control and collaborative development with Git and GitHub.',
     content: `
-      <h3>Week 2: Source Control Management with Git & GitHub</h3>
-      <p>Master version control with:</p>
+      <h3>Week 2: Source Code Management</h3>
+      
       <ul>
         <li>Git architecture and core commands</li>
-        <li>Branching strategies (GitFlow, trunk-based)</li>
+        <li>Branching strategies </li>
         <li>Pull requests and code reviews</li>
         <li>GitHub for DevOps engineers</li>
         <li>Git security and best practices</li>
       </ul>
-      <p>You'll leave this week as a confident Git user ready for team collaboration.</p>
+
+      <p>By the end of this week, you’ll be able to work with developers and onboard projects for Organisations on GitHub. 
+</p>
     `,
     image: '/assets/images/roadmap/git_github.png'
   },
   {
     id: 3,
     week: 3,
-    title: 'CI/CD Pipeline Excellence',
-    description: 'Build robust continuous integration and deployment pipelines.',
+    title: 'Continuous Integration/Continuous Deployment',
+    description: 'Dive into automated deployments with: Build a continuous integration and deployment pipeline.',
     content: `
       <h3>Week 3: Continuous Integration/Continuous Deployment</h3>
       <p>Dive into automated deployments with:</p>
       <ul>
         <li>CI/CD principles and pipeline components</li>
         <li>GitHub Actions fundamentals</li>
-        <li>Testing strategies in CI/CD</li>
-        <li>Automated security scanning</li>
         <li>Deployment environments (Dev, Staging, Production)</li>
       </ul>
-      <p>By week's end, you'll be able to build and maintain professional CI/CD pipelines.</p>
+      <p>By week's end, you'll be able to build and maintain CI/CD pipelines.</p>
     `,
     image: '/assets/images/roadmap/cicd.png'
   },
   {
     id: 4,
     week: 4,
-    title: 'Docker & Containerization',
-    description: 'Master container technology with Docker and multi-container applications.',
+    title: 'Containerization with Docker',
+    description: 'Learn container technology with Docker and multi-container applications.',
     content: `
       <h3>Week 4: Containerization with Docker</h3>
       <p>Explore containerization through:</p>
@@ -73,7 +73,7 @@ export const courses: Course[] = [
         <li>Container registries</li>
         <li>Docker Compose for multi-container applications</li>
       </ul>
-      <p>You'll finish this week able to build and manage containerized applications.</p>
+      <p>You'll finish this week able to build and manage containerized applications that can run on every platform.</p>
     `,
     image: '/assets/images/roadmap/containerization.png'
   },
@@ -84,7 +84,7 @@ export const courses: Course[] = [
     description: 'Learn to manage infrastructure through code using Terraform.',
     content: `
       <h3>Week 5: Infrastructure as Code (IaC)</h3>
-      <p>Master infrastructure automation with:</p>
+      <p>Get started with infrastructure automation:</p>
       <ul>
         <li>IaC benefits and approaches</li>
         <li>Terraform basics and provider configuration</li>
@@ -99,19 +99,20 @@ export const courses: Course[] = [
   {
     id: 6,
     week: 6,
-    title: 'Monitoring & Observability',
-    description: 'Implement comprehensive monitoring and observability solutions.',
+    title: ' Final Project: Build and Deploy a Blockchain App',
+    description: 'Students will build a comprehensive DevOps solution that integrates all skills learned throughout the programme to deploy a cryptocurrency application:',
     content: `
-      <h3>Week 6: Monitoring, Observability & Final Project</h3>
-      <p>Complete your DevOps journey with:</p>
+      <h3>Evaluation Criteria:</h3>
+      
       <ul>
-        <li>Monitoring vs. observability</li>
-        <li>Prometheus for metrics collection</li>
-        <li>Grafana for visualization</li>
-        <li>Log management</li>
-        <li>Alert design and management</li>
+        <li>Functionality: Does the pipeline work end-to-end?</li>
+        <li>Security: Are best practices implemented?</li>
+        <li>Automation: How much manual intervention is required?</li>
+        <li>Documentation: Is the solution well-documented?</li>
+    
       </ul>
-      <p>You'll finish the course ready to implement and manage production monitoring systems.</p>
+      <p>By the end of this week, you’ll have a balance of theory and hands-on practice, with real-world skills and a portfolio project that can be immediately applied in a DevOps role. 
+</p>
     `,
     image: '/assets/images/roadmap/monitoring.png'
   }

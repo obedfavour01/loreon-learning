@@ -37,15 +37,15 @@ const Loreon = () => {
                     content={
 
                         <div>
-                        
+
 
                             <ul className='list-none space-y-0.5'>
 
-                                <li> ● Weekly virtual classes  </li>
+                                <li> ● Live instructor-led virtual classes </li>
                                 <li> ● Clear roadmap to DevOps skills  </li>
                                 <li> ● Work on real projects, guided and assessed by a senior engineer  </li>
                                 <li>  ● Weekly tasks and feedback </li>
-                                <li> ● Certification </li>
+
 
                             </ul>
 
@@ -57,12 +57,24 @@ const Loreon = () => {
 
                 <LoreonCard
                     header={' Knowledge enough to Secure an internship!'}
-                    content= {<div></div>}
+                    content={
+                            <div>
+                                <ul className='list-none space-y-0.5'>
+
+                                    <li> ● LinkedIn Optimization</li>
+                                    <li> ● Resume review </li>
+                                    <li> ● Portfolio Project  </li>
+                                    <li>  ● Demo Interview session </li>
+
+
+                                </ul>
+                            </div>
+                    }
                 />
 
                 <LoreonCard
                     header={'You’ll learn directly from a senior engineer, work on real projects, and follow a proven roadmap that takes you from beginner to internship-ready'}
-                    content= {<div> </div>}
+                    content={<div> </div>}
                 />
 
 
