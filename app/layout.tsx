@@ -11,7 +11,7 @@ import { UserProvider } from "@auth0/nextjs-auth0/client";
 
 export const metadata: Metadata = {
   title: "Loreon Learning",
-  description: "Changing lives cohort after another",
+  description: "Changing lives one cohort after another",
 
   openGraph: {
     title: "Changing lives one cohort after another",
