@@ -102,7 +102,7 @@ const Academy = () => {
                     alt='ileri'
                     width={800}
                     height={800}
-                    className='w-full h-full object-cover rounded-full  lg:w-[566px] lg:h-[429px] aspect-square '
+                    className='w-full h-full object-cover rounded-full  lg:w-[466px]  aspect-square '
                 />
             </div>
 
