@@ -24,11 +24,7 @@ const Academy = () => {
                 </h1>
 
                 <p className='xs:max-md:w-full  mx-auto font-light text-base my-8'>
-                    <span className='text-2xl'> Ilerioluwa Arowolo </span> is an innovative technology leader with a passion for architecting automated
-                    solutions that solve complex technological challenges and drive organisational efficiency. His
-                    expertise in cloud infrastructure and DevOps practices has led to transformative solutions
-                    across various organizations, significantly improving system reliability while reducing operational
-                    costs and deployment inefficiencies.
+                    <span className='text-2xl'> Ilerioluwa Arowolo </span> is a technology leader, with 8+ years of experience in cloud technology and automation. With a passion for knowledge sharing and mentoring professionals to develop in-demand skills, he specializes in building enterprise-grade systems and architecting automated solutions that drive organizational efficiency
 
                 </p>
 
@@ -36,19 +32,17 @@ const Academy = () => {
 
                 <p className='xs:max-md:w-full  mx-auto font-light text-base my-8'>
 
-                    Throughout his 8-plus year career, he has worked at the intersection of cloud technology and
-                    automation, holding key positions that have shaped his expertise in building enterprise-grade,
-                    scalable systems. 
-
+                    His expertise in cloud infrastructure and DevOps has delivered transformative results across multiple organizations, improving system reliability while reducing costs.
+                    With a versatile background spanning fintech, Web3, and e-commerce, Ilerioluwa has created robust web applications throughout his career
                 </p>
 
 
                 <p className='xs:max-md:w-full  mx-auto font-light text-base my-8'>
-                     His career progression demonstrates versatility and technical acumen, moving
+                    {/* His career progression demonstrates versatility and technical acumen, moving
                     through various tech roles where he created robust web applications across fintech, Web3, and
-                    e-commerce sectors. Now serving as a Senior DevOps Engineer at WarpSpeed Financials, he
-                    architects and implements comprehensive CI/CD pipelines and manages cloud infrastructure
-                    solutions that power critical financial services.
+                    e-commerce sectors.  */}
+
+              As a Senior DevOps Engineer, he now architects CI/CD pipelines and manages cloud infrastructure for critical financial services platforms.
                 </p>
                 {/* <div className='flex xs:max-lg:flex-col justify-between  gap-12 xs:max-lg:gap-y-8 mt-16'>
                     <div className='flex gap-3 '>
