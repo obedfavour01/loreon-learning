@@ -120,6 +120,6 @@ export const courses: Course[] = [
       <p> By the end of this week, you’ll have a balance of theory and hands-on practice, with a portfolio project to showcase your skills.
 </p>
     `,
-    image: '/assets/images/roadmap/monitoring.png'
+    image: '/assets/images/roadmap/crypto.jpg'
   }
 ];
