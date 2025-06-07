@@ -33,7 +33,7 @@ const Loreon = () => {
 
             <div className='flex flex-col md:flex-row items-center justify-center gap-6 mt-12'>
                 <LoreonCard
-                    header={'6-week virtual programme'}
+                    header={'6-week immersive experience '}
                     content={
 
                         <div>

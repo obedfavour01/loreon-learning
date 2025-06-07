@@ -31,7 +31,7 @@ export const firstGuaranteeData: GuaranteeData[] = [
     },
     {
       mainText: "Certification",
-      subText: "Industry recognized certificate which provides a competitive edge in the job market.",
+      subText: "Get a certificate which provides a competitive edge in the job market.",
       imgPath: "/"
     },
     {

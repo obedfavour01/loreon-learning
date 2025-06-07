@@ -4,13 +4,13 @@ export const courses: Course[] = [
   {
     id: 1,
     week: 1,
-    title: 'DevOps & Linux Fundamentals',
-    description: 'Master the foundational concepts of DevOps and essential Linux skills.',
+    title: 'Introduction to DevOps & Linux Fundamentals',
+    description: 'Get started with the foundational concepts of DevOps and essential Linux skills.',
     content: `
       <h3>Introduction to DevOps & Linux Fundamentals</h3>
       <p>This foundational week covers:</p>
       <ul>
-        <li>The 7 pillars of DevOps</li>
+       
         <li>DevOps lifecycle and pipeline</li>
 
         <li>Linux fundamentals for DevOps practitioners</li>
@@ -26,7 +26,7 @@ export const courses: Course[] = [
     title: 'Git & GitHub ',
     description: 'Learn version control and collaborative development with Git and GitHub.',
     content: `
-      <h3>Week 2: Source Code Management</h3>
+      <h3> Source Code Management</h3>
       
       <ul>
         <li>Git architecture and core commands</li>
@@ -47,7 +47,7 @@ export const courses: Course[] = [
     title: 'Continuous Integration/Continuous Deployment',
     description: 'Dive into automated deployments with: Build a continuous integration and deployment pipeline.',
     content: `
-      <h3>Week 3: Continuous Integration/Continuous Deployment</h3>
+      <h3>Continuous Integration/Continuous Deployment</h3>
       <p>Dive into automated deployments with:</p>
       <ul>
         <li>CI/CD principles and pipeline components</li>
@@ -64,7 +64,7 @@ export const courses: Course[] = [
     title: 'Containerization with Docker',
     description: 'Learn container technology with Docker and multi-container applications.',
     content: `
-      <h3>Week 4: Containerization with Docker</h3>
+      <h3> Containerization with Docker</h3>
       <p>Explore containerization through:</p>
       <ul>
         <li>Container fundamentals</li>
@@ -83,7 +83,7 @@ export const courses: Course[] = [
     title: 'Infrastructure as Code',
     description: 'Learn to manage infrastructure through code using Terraform.',
     content: `
-      <h3>Week 5: Infrastructure as Code (IaC)</h3>
+      <h3>Infrastructure as Code (IaC)</h3>
       <p>Get started with infrastructure automation:</p>
       <ul>
         <li>IaC benefits and approaches</li>
