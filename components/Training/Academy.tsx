@@ -23,21 +23,21 @@ const Academy = () => {
                     About the Instructor
                 </h1>
 
-                <p className='xs:max-md:w-full  mx-auto font-light text-sm my-8'>
+                <p className='xs:max-md:w-full  mx-auto font-light text-sm my-8 text-justify'>
                     <span className='text-2xl'> Ilerioluwa Arowolo </span> is a technology leader, with 8+ years of experience in cloud technology and automation. With a passion for knowledge sharing and mentoring professionals to develop in-demand skills, he specializes in building enterprise-grade systems and architecting automated solutions that drive organizational efficiency
 
                 </p>
 
 
 
-                <p className='xs:max-md:w-full  mx-auto font-light text-sm my-8'>
+                <p className='xs:max-md:w-full  mx-auto font-light text-sm my-8 text-justify '>
 
                     His expertise in cloud infrastructure and DevOps has delivered transformative results across multiple organizations, improving system reliability while reducing costs.
                     With a versatile background spanning fintech, Web3, and e-commerce, Ilerioluwa has created robust web applications throughout his career
                 </p>
 
 
-                <p className='xs:max-md:w-full  mx-auto font-light text-sm my-8'>
+                <p className='xs:max-md:w-full  mx-auto font-light text-sm my-8 text-justify '>
                     {/* His career progression demonstrates versatility and technical acumen, moving
                     through various tech roles where he created robust web applications across fintech, Web3, and
                     e-commerce sectors.  */}

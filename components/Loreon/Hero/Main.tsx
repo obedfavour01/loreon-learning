@@ -9,7 +9,7 @@ const Main = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight mb-6">
             Producing the next tech <br /> industry experts
           </h1>
-          <p className="text-lg text-gray-600 mb-4">
+          <p className="text-lg text-gray-600 mb-4 text-justify ">
              The Loreon Foundational DevOps Programme gives you a clear step-by-step guide to becoming
           internship-ready in just 6 weeks. No confusion, no wasted effort, just real skills and hands-on
           experience. Classes are delivered using a live video conferencing platform and all classes

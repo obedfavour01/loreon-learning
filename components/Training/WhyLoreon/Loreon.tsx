@@ -11,7 +11,9 @@ const Loreon = () => {
     return (
         <div className='mx-7 md:mx-32'>
             <div className='text-center '>
-                <h1 className="text-[84px] 
+                <h1 className="
+                    xl:text-[84px] 
+                    md:text-5xl
                     xs:max-md:text-3xl 
                     flex 
                     justify-center 
@@ -31,7 +33,7 @@ const Loreon = () => {
             </div>
 
 
-            <div className='flex flex-col md:flex-row items-center justify-center gap-6 mt-12'>
+            <div className='flex flex-col lg:flex-row xs:max-sm:items-start items-center justify-center gap-6  mt-12 mx-auto'>
                 <LoreonCard
                     header={'6-week immersive experience '}
                     content={
@@ -89,7 +91,7 @@ export default Loreon
 
 
 export const LoreonCard = ({ header, content }: LoreonCard) => (
-    <div className=' w-[375px] h-[284px] border-[3px] border-[#37536E] box-border rounded-[15px] overflow-hidden relative inset-5'>
+    <div className=' w-[375px] h-[284px] lg:max-xl:scale-75 border-[3px]  border-[#37536E] box-border rounded-[15px] overflow-hidden relative inset-5'>
         <div className='inset-5 bg-white px-4 overflow-hidden absolute rounded-3xl p-4'>
             <h1 className='text-xl'>{header}</h1>
             <p className=" text-lg font-semibold text-[#5F6368]">
